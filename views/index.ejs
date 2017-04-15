@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    
+    <div class="panel">
+    	<div id = "displayBar" class="row">
+    		<input type="text" class="displayStr" value=<%= Result %>></input>
+    	</div>
+    	<div class="row">
+    		<div class="btn"><input id ='btn7' type="button" value="7" class="_btn" onclick="<%= "operate_Func(7)"%>"></div>
+    		<div class="btn"><input id ='btn8' type="button" value="8" class="_btn" onclick="<%= "operate_Func(8)"%>"></div>
+    		<div class="btn"><input id ='btn9' type="button" value="9" class="_btn" onclick="<%= "operate_Func(9)"%>"></div>
+    		<div class="btn"><input id ='btnAdd' type="button" value="+" class="_btn" onclick="<%= "operate_Func('Add')"%>"></div>
+    	</div>
+    	<div class="row">
+    		<div class="btn"><input id ='btn4' type="button" value="4" class="_btn" onclick="<%= "operate_Func(4)"%>"></div>
+    		<div class="btn"><input id ='btn5' type="button" value="5" class="_btn" onclick="<%= "operate_Func(5)"%>"></div>
+    		<div class="btn"><input id ='btn6' type="button" value="6" class="_btn" onclick="<%= "operate_Func(6)"%>"></div>
+    		<div class="btn"><input id ='btnSub' type="button" value="-" class="_btn" onclick="<%= "operate_Func('Sub')"%>"></div>
+    	</div>
+    	<div class="row">
+    		<div class="btn"><input id ='btn1' type="button" value="1" class="_btn" onclick="<%= "operate_Func(1)"%>"></div>
+    		<div class="btn"><input id ='btn2' type="button" value="2" class="_btn" onclick="<%= "operate_Func(2)"%>"></div>
+    		<div class="btn"><input id ='btn3' type="button" value="3" class="_btn" onclick="<%= "operate_Func(3)"%>"></div>
+    		<div class="btn"><input id ='btnDiv' type="button" value="/" class="_btn" onclick="<%= "operate_Func('Div')"%>"></div>
+    	</div>
+    	<div class="row">
+    		<div class="btn"><input id ='btnC' type="button" value="C" class="_btn" onclick="<%= "operate_Func('C')"%>"></div>
+    		<div class="btn"><input id ='btn0' type="button" value="0" class="_btn" onclick="<%= "operate_Func(0)"%>"></div>
+    		<div class="btn"><input id ='btnEq' type="button" value="=" class="_btn" onclick="<%= "operate_Func('btnEq')"%>"></div>
+    		<div class="btn"><input id ='btnMul' type="button" value="*" class="_btn" onclick="<%= "operate_Func('Mul')"%>"></div>
+    	</div>
+    </div>
+    
+    <div id="containerId" class="outerCont">
+    	<div id='btn_1000' class="btn"></id>
+    	<div id='btn_5000' class="btn"></id>
+    	<div id='btn_100' class="btn"></id>
+    </id>
+    
+    <script type='text/javascript' src='/javascripts/jquery.js'></script>
+    <script type='text/javascript' src='/javascripts/client.js'></script>
+  </body>
+</html>

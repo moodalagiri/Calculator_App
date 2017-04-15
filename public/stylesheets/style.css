@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.panel{
+	position : absolute;
+	width:200px;
+	height:200px;
+	background-color : black;
+	border:solid black 1px;
+}
+div.row{
+	float : left;
+	margin-top:8px;
+	position: relative;
+	left : 20px;
+	height:30px;
+	width:90%;	
+}
+
+div.btn{
+	float: left;	
+	width:30px;
+	height:30px;
+	margin-right:15px;
+}
+
+div ._btn{
+	background-color : grey;
+	height: 100%;
+	width : 100%;
+}
+
+#displayBar{
+	top  : 20p;
+	left : 12px;
+}
+div .displayStr{
+	background-color : grey;
+}
+
+div .outerCont{
+	position : absolute;
+	top: 250px;
+	left : 30px;
+	height : 50px;
+	width : 400px;
+	border:solid red 1px;
+}
